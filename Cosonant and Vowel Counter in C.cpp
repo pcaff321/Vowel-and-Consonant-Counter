@@ -13,7 +13,7 @@ int main()
 	int numVowels, numConsonants;
 
 	puts("Enter string:");
-	gets_s(string, 80);
+	gets(string);
 
 	numVowels = countVowels(string);
 	printf("Number of vowels = %d \n\n", numVowels);
